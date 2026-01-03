@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Definir la carpeta de descargas
-carpeta_descargas = "/home/epitaphsystem/Desktop/python/repo/descargas/"
+carpeta_descargas = os.getcwd()
 
 # Definir las carpteas destino para cada tipo de archivo
 carpeta_imagenes = os.path.join(carpeta_descargas, "Imagenes")
